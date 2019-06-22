@@ -92,8 +92,8 @@ nav ul li:last-child {
 }
 
 .active {
-  opacity: 1;
-  color: #fbfbfb;
+  opacity: 1 !important;
+  color: #fbfbfb !important;
 }
 
 .content {
