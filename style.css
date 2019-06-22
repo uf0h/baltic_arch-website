@@ -98,7 +98,7 @@ header {
 .content {
   display: flex;
   justify-content: space-between;
-  margin: 140px 220px 0 220px;
+  margin: 140px 150px 0 220px;
 }
 
 .content .text h6 {
