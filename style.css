@@ -137,15 +137,85 @@ header {
   text-align: center;
 }
 
-.social-icons li a {
-  transition: opacity 0.2s;
-}
-
 .social-icons li a:hover {
   opacity: 0.75;
+  transition: opacity 0.2s;
 }
 
 .social-icon {
   width: 20px;
   height: 20px;
+}
+
+/* SELECTOR ITEM */
+.selector {
+  background-color: #333;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 146px;
+}
+
+.selector-items {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  align-items: center;
+  margin: 0 45px 0 25px;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current-page {
+  color: #fbfbfb;
+  font-weight: bold;
+  font-size: 30px;
+  border-right: 3px solid #3f3f3f;
+  padding: 6px 12px 6px 0;
+}
+
+.total-pages {
+  color: #626262;
+  font-size: 18px;
+  padding-left: 14px;
+}
+
+.dot {
+  background-color: #626262;
+  border-radius: 50%;
+  float: left;
+  margin: 0 8px;
+  height: 8px;
+  width: 8px;
+}
+
+.dot.active {
+  background-color: #fbfbfb;
+}
+
+.arrows {
+  display: flex;
+}
+
+.arrow-link:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.arrow-icon {
+  height: 13px;
+}
+
+.arrow-icon-left {
+  margin-right: 15px;
+}
+
+.arrow-icon-right {
+  margin-left: 15px;
 }
