@@ -56,8 +56,7 @@ header {
 
 /* MISC BAR (RIGHT) */
 /* TODO: flex */
-.misc-container {
-}
+.misc-container {}
 
 .search-icon {
   cursor: pointer;
@@ -178,8 +177,8 @@ header {
 
 .total-pages {
   color: #626262;
-  font-size: 18px;
-  padding-left: 14px;
+  font-size: 16px;
+  padding-left: 15px;
 }
 
 .dot {
@@ -214,4 +213,70 @@ header {
 
 .arrow-icon-right {
   margin-left: 15px;
+}
+
+/* CASE STUDIES */
+.case-studies {
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #626262;
+  font-size: 15px;
+  padding: 80px 120px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 670px;
+  height: 340px;
+}
+
+.case-study-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.top-bar {
+  position: relative;
+}
+
+.top-bar span {
+  opacity: .4;
+}
+
+.top-bar>.arrows {
+  float: right;
+}
+
+.case-study-title {
+  color: #191919;
+  margin: 33px 0 42px 0;
+  position: relative;
+  font-size: 22px;
+}
+
+.learn-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  width: 55px;
+  height: 3px;
+  background: #a6813c;
+}
+
+.learn-more a {
+  color: inherit;
+  font-size: 16px;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.learn-more a:hover {
+  color: #000;
+  opacity: .8;
+  transition: color 0.2s;
 }
